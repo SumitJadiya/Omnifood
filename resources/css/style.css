@@ -381,7 +381,7 @@ cite img {
   border-radius: 5px;
   width: 90%;
   margin-left: 5%;
-  box-shadow: 0 5px 5px #efefefgit;
+  box-shadow: 0 5px 5px #efefef;
 }
 
 .plan-box div {
@@ -451,4 +451,64 @@ textarea {
 
 *:focus {
   outline: none;
+}
+
+/* ----------------- FOOTER ----------------- */
+footer {
+  background-color: #333;
+  font-size: 80%;
+  padding: 50px;
+}
+
+.footer-nav {
+  float: left;
+}
+
+.footer-icons {
+  float: right;
+}
+
+.footer-nav,
+.footer-icons {
+  list-style-type: none;
+}
+
+.footer-nav li,
+.footer-icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.footer-icons li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.footer-icons li a:link,
+.footer-icons li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.footer-icons li a:hover,
+.footer-icons li a:active {
+  color: #ddd;
+  transition: color 0.2s;
+}
+
+.footer-icons li ion-icon {
+  font-size: 160%;
+  display: block;
+  text-align: right;
+}
+
+footer .row p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
 }
