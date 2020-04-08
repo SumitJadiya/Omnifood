@@ -43,5 +43,11 @@ $(document).ready(function name(params) {
         offset: "50%;"
     })
 
+    /*        Mobile Navigation          */
+    $(".js--nav-icon").click(function () {
+        var nav = $(".js--main-nav");
+        var icon = $(".js--nav-icon ion-icon");
 
+        nav.slideToggle(200);
+    })
 });

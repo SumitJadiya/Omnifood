@@ -255,6 +255,19 @@ header {
   display: block;
 }
 
+/* ---------- Mob Nav ---------- */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
+
 /* ---------- Features ---------- */
 .section-features .long-copy {
   margin-bottom: 30px;
